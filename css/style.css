@@ -248,6 +248,19 @@ section h2 {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
+.background-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.1;
+}
+
 /* Search */
 .search {
   padding: 60px;
